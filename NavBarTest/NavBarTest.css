@@ -1,0 +1,188 @@
+* {
+    font-size: 28px;
+    color: #5F5F5F;
+}
+body { 
+    /* padding-top: 200px;  */
+}
+
+/* NAVIGATION BAR */
+nav {
+    padding-left: 2%;
+    padding-right: 2%
+}
+.link-group, .logo-group {
+    display: inline-block;
+}
+.link-group {
+    margin: 0 auto;
+}
+.logo, .search, .browse, .space, .donate, .create, .profile, .loginsign {
+    display: inline-block;
+    vertical-align:middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo, .search, .browse, .loginsign, .create {
+    padding-right: 25px;
+}
+.logo {
+    width: 10vw;
+}
+#profile {
+    height: 150px;
+}
+#logo {
+    height: 18vh;
+}
+.search-bar1 {
+    background-color: #F2F2F2;
+    border: none;
+    height: 75px;
+    width: 35vw;
+    padding-left: 10px;
+}
+.search-bar1-box {
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+span.fa.fa-search {
+    color: #BDBDBD;
+}
+.space {
+    width: 45vw;
+    height: 75px;
+}
+.browse-btn {
+    height: 75px;
+    width: 12vw;
+    border: none;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.create-btn, .loginsign-btn {
+    height: 75px;
+    border: 3px solid #4EC8ED;
+    border-radius: 8px;
+    color: #4EC8ED;
+    width: 16vw;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.donate-btn {
+    height: 75px;
+    background-color: #FFC837;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 8vw;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.create-btn:hover, .loginsign-btn:hover {
+    color: white;
+    background-color: #4EC8ED;
+}
+
+.user-dropdown-btn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.user-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 18vw;
+    box-shadow: 0px 0px 25px 2px #E5E3E6;
+    z-index: 1;
+    font-weight: 300;
+    padding: 40px 20px 40px 20px;
+}
+.user-dropdown-content a {
+    color: #5F5F5F;
+    text-decoration: none;
+    display: block;
+}
+.user-dropdown-content a:hover {
+    color: #4EC8ED;
+    text-decoration: none;
+}
+.user-dropdown-content a:hover {
+    background-color: white;
+}
+.dropdown:hover .user-dropdown-content {
+    display: block;
+    left:auto;
+    right:0;
+}
+hr.hr-dropdown {
+    height: 1px;
+    text-align: center;
+    background-color: #A0A0A0;
+    margin: 10px 0px 8px 0px; 
+}
+/* END OF NAVIGATION BAR */
+
+/* HERO */
+.find-recipe-header {
+    color: white;
+    font-weight: 650;
+    font-size: 100px;
+}
+
+.food1-box {
+    position: relative;
+    height:  900px;
+    z-index: 1;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    justify-content:center;
+    margin: 0;
+    display: flex;
+    align-items:center;
+}
+.food1-box:before {
+    background-image: url('food1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    filter: 
+        opacity(80%)
+        brightness(70%);
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    content: '';
+}
+.food1-inner-box {
+    width: 75%;
+}
+.search-bar2 {
+    border: 2px solid #E1E1E1;
+    border-radius: 8px;
+    height: 140px;
+    width: 75%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+/* END OF HERO */
+
+
+/* MISCELLANEOUS */
+a, button {
+    cursor: pointer;
+}
+::placeholder {
+    color: #BDBDBD;
+    font-weight: 400;
+}
+/* END OF MISCELLANEOUS */
