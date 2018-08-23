@@ -88,6 +88,10 @@ span.fa.fa-search {
     color: white;
     background-color: #4EC8ED;
 }
+.donate-btn:hover {
+    color: white;
+    background-color: #F0B53F;
+}
 
 .user-dropdown-btn {
     padding: 16px;
