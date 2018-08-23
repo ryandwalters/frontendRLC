@@ -9,8 +9,10 @@ body {
 /* NAVIGATION BAR */
 nav {
     padding-left: 2%;
-    padding-right: 2%
-}
+    padding-right: 2%;
+    margin-top: 50px
+      } 
+  
 .link-group, .logo-group {
     display: inline-block;
 }
@@ -129,6 +131,8 @@ hr.hr-dropdown {
     background-color: #A0A0A0;
     margin: 10px 0px 8px 0px; 
 }
+
+
 /* END OF NAVIGATION BAR */
 
 /* HERO */
