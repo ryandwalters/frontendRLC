@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
-    <title>HOME PAGE NAVIGATION BAR</title>
+    <title>BS USER NAVIGATION BAR</title>
 
     <style>
         * {
@@ -88,6 +88,7 @@
             font-weight: 400;
             letter-spacing: 3px;
             text-align: center;
+            margin-top: 25px;
         }
 
         #donate-btn:hover {
@@ -210,38 +211,47 @@
         }
 
         /* END OF MISCELLANEOUS */
-
-        @media only screen and (max-width: 767px) {
-            /* phones */
-        }
     </style>
 
 </head>
 
 <body>
-    <!--FIXED HOME PAGE NAV BAR-->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-fill fixed-top">
         <a class="navbar-brand" href="#">
             <img id="logo" src="RLC-logo.png" alt="">
         </a>
 
         <div class="navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <form class="form-inline my-2 my-lg-0">
+                    <div class="search-bar1-box">
+                        <span class="fa fa-search"></span>
+                        <input id="search-bar1" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                    <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
 
-            <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a id="browse-btn" class="nav-link" href="#">Browse Recipes</a>
                 </li>
+
                 <li class="nav-item">
-                    <a id="create-btn" class="nav-link" href="#">Create Recipe +</a>
-                </li>
-                <li class="nav-item ">
                     <a id="donate-btn" class="nav-link" href="#">Donate</a>
                 </li>
             </ul>
+            <div class="nav-item dropdown">
+                <img id="profile" class="user-dropdown-btn" src="randy.png" alt="">
+                <div class="user-dropdown-content">
+                    <p style="color: #BEBEBE;">Hi, Randy!</p>
+                    <a href="#">My Recipes</a>
+                    <a href="#">Settings</a>
+                    <hr class="hr-dropdown">
+                    <a href="#">Log Out</a>
+                </div>
+            </div>
         </div>
     </nav>
-
-
 
     <!-- STOP! -->
     <div class="food1-box">
@@ -251,9 +261,9 @@
                 <input class="search-bar2" type="text" placeholder="Search by keywords">
             </form>
         </div>
+
         <!-- FOOD PHOTO GOES HERE AS BG -->
     </div>
-
     <div style="height: 300px; background-color: aquamarine;"></div>
     <div style="height: 300px; background-color: pink;"></div>
     <div style="height: 300px; background-color: yellowgreen;"></div>
@@ -262,8 +272,6 @@
     <div style="height: 300px; background-color: pink;"></div>
     <div style="height: 300px; background-color: yellowgreen;"></div>
     <div style="height: 300px; background-color: lemonchiffon;"></div>
-    </div>
-    </nav>
 </body>
 
 </html>
